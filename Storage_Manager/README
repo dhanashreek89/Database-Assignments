@@ -1,4 +1,4 @@
-							Storage Manage
+							Storage Manager
 							     README
 
 Storage Manager module is responsible for reading a block from file on the disk into memory and writting in-memory blocks to disk. It deals with fixed sized pages (blocks) of data and the size is specified by PAGE_SIZE. The size is configurable and the module needs to be built when this size is changed.
